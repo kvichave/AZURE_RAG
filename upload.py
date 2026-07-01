@@ -6,7 +6,7 @@ from azure.storage.blob import (
     ContentSettings,
 )
 
-from config import *
+from backend.config import *
 
 blob_service = BlobServiceClient.from_connection_string(
     AZURE_STORAGE_CONNECTION_STRING
